@@ -1,3 +1,8 @@
 # Snake-Game
 Implementing Kernel , Snake Game Options on Command Line (CMD) using Data Structures and OS approaches.
 It is required to implement the famous Snake game [1] in the serial terminal. The system  should initially print a welcome message describing the key shortcuts. Then when the user  presses the start button the game starts. The score and elapsed time should be printed during  gameplay. When the player wins or loses the game stops the first welcome message is shown again,  along with latest score and the high score. Pressing the start button again here restarts the game. If the player won a game, the next game will go at a slightly higher speed than before. If the player lost, the game speed will be reset. The win condition should be that a certain score is  reached, or when the snake reaches a certain length. The level boundaries, the snake, the power-ups to pick up, and enemies to avoid are all  rendered using ASCII characters of your choice. Some power-ups are special and appear only  briefly at random location. Special power-ups are bigger in size and have bigger addition to the  score when eaten by the snake. You can use the simple Xorshift algorithm [2] for pseudo-random  number generation.
+![image](https://user-images.githubusercontent.com/54436093/218474777-08e80561-4017-4d2d-8c8c-70d00cae4604.png)
+![image](https://user-images.githubusercontent.com/54436093/218474845-f762b0d6-6111-40e3-956c-f91f1c46c7d0.png)
+![image](https://user-images.githubusercontent.com/54436093/218474893-662540a6-8244-4035-aac8-db5e4fa07daa.png)
+![image](https://user-images.githubusercontent.com/54436093/218474985-e8324971-36f0-4187-a9f9-dde39126b95e.png)
+
